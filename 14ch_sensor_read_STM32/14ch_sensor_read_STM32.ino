@@ -1,9 +1,9 @@
 //MULTIPLEXER CONTROL PINS (STM32 BLUEPILL)
-#define S0 PB15
-#define S1 PB14
-#define S2 PB13
-#define S3 PB12
-#define SIG_PIN PA0
+#define S0 PA7
+#define S1 PA6
+#define S2 PA5
+#define S3 PA4
+#define SIG_PIN PA3
 
 #define sensorNumber 14
 int sensor[sensorNumber];
