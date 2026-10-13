@@ -1,9 +1,9 @@
 //MULTIPLEXER CONTROL PINS (ESP32)
-#define S0 16
-#define S1 17
-#define S2 5
-#define S3 18
-#define SIG_PIN 4
+#define S0 27
+#define S1 26
+#define S2 25
+#define S3 33
+#define SIG_PIN 32
 #define sensorNumber 14
 int sensor[sensorNumber];
 
