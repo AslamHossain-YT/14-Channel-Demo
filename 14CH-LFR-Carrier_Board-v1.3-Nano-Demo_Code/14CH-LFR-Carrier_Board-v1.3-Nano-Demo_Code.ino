@@ -323,7 +323,6 @@ a:
       error = center_position - line_position;}
     if (s[0] == 0 && s[13] == 1) { direction = 1; }
     if (s[0] == 1 && s[13] == 0) { direction = 2; }
-    if(s[0]||s[1]||s[2]){error=65;}
     if (sumOnSensor == 0) {
       uint32_t timer1 = millis();
       while (sumOnSensor == 0) {
