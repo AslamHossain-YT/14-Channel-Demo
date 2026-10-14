@@ -1,8 +1,8 @@
 // Define control pins for the multiplexer
-#define S0 8        //13//11
-#define S1 10       //12//10
-#define S2 11       //14//8
-#define S3 12       //27//7
+#define S0 7      //13//11
+#define S1 6     //12//10
+#define S2 5    //14//8
+#define S3 4      //27//7
 #define SIG_PIN A7  //26//A7  // Define the signal pin connected to the multiplexer (SIG)
 #define sensorNumber 14
 int sensor[sensorNumber];
